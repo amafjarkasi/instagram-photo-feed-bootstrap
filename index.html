@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Instagram Photo Feed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- instagram tag -->
+
+<nav class="navbar navbar-light bg-light px-5">
+    <a class="navbar-brand" href="#">
+
+        <img src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-and-icon-black-and-white-text-glyph-png.png" height="100%" width="150px" height="30" class="d-flex justify-content-start d-inline-block align-top" alt="" loading="lazy">
+     </a>
+
+        <div class="d-flex justify-content-end">
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="formGroupExampleInput" placeholder=""></textarea>
+                                </div>
+                            </form>
+                            <div class="">
+                            <button type="button" class="btn btn-outline-secondary"><i class="fas fa-camera"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fas fa-map-marker-alt"></i></button>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Publish</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+   
+    
+        <!--
+        <a class="nav-link dropdown-toggle text-muted" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+        -->
+
+<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-cog"></i>
+  </button>
+  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+            <!--
+            <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else</a>
+            </div>
+            -->
+
+    </div>
+</nav>
+
+&nbsp;
+
+<!-- pills -->
+<div class="container-fluid">
+    <div class="row">
+        <div class= "col-12">
+
+
+            <ul class="nav nav-pills mb-2 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square"></i></a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                            <div class="col-sm">
+                                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" width="100%" height="300px"/>
+                            </div>
+                        </div>
+                        </div>
+                &nbsp;
+                
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="container-fluid bg-light h-100 pb-5">
+                    &nbsp;
+                    <div class="row justify-content-center md-3 py-4">
+                    <div class="card custom-card border border-light w-50 pb-3">
+
+                        <h5 class="card-header bg-white text-dark d-flex justify-content-start">My first photo</h5>
+
+
+                        <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                    </div>
+                   
+                    <div class="row justify-content-center">
+                    <div class="card custom-card border border-light w-50 p-3">
+                    <h5 class="card-header bg-white text-dark">My first photo</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+        
+    </div>
+    </div>
+
+
+</div>
+
+
+<script> src="index.js"</script>    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

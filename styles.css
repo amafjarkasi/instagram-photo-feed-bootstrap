@@ -1,0 +1,14 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: gray;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.custom-card {
+    width: 350px;
+}
